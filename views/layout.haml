@@ -1,0 +1,11 @@
+!!! 5
+%html{:lang => :en}
+  %head
+    %meta{:charset => "utf-8"}
+    %title= @title
+    %link{:href => '/css/main.css', :rel => :stylesheet}
+  %body
+    %header
+      %h1= @title
+    #content= yield
+    %footer <~ end ~>

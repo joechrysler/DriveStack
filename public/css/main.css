@@ -1,0 +1,9 @@
+tr.alt {
+  background-color: #f8f8f8;
+}
+td {
+  margin: 0;
+  padding: .1em 1em;
+}
+td.separator {
+  background-color: #f0f0ff;
