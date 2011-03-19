@@ -3,11 +3,10 @@
     %tr{:class => "#{:alt if i%2==0}"}
       %td{:class => "#{:separator if i%8==0}"}= i+1
       %td= drive.bn
-      %td= drive.mn
+      %td= drive.model_number
       %td= drive.brand
       %td= drive.size
       %td= drive.speed
       %td= drive.interface
-      %td= drive.id
       %td
-        %a{:href => "/forget/#{drive.id}"} forget
+        %a{:href => "/forget/#{drive.bn}"} forget
