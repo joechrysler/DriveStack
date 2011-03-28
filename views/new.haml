@@ -1,0 +1,23 @@
+%form{:method => :post, :id => :newdrive}
+  %p
+    %label model #
+    %input{:type => :text, :id => :model_number}
+  %p
+    %label drive #
+    %input{:type => :text, :id => :drive_number}
+
+%div#more_info
+  %form{:method => :post, :id => :model_info}
+    %p
+      %label make
+      %input{:type => :text, :id => :make}
+    %p
+      %label size gb
+      %input{:type => :text, :id => :size}
+    %p
+      %label speed kRPM
+      %input{:type => :text, :id => :speed}
+    %p
+      %label interface
+      %input{:type => :text, :id => :interface}
+
